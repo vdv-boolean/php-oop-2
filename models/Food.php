@@ -20,11 +20,13 @@ class Food extends Product {
     }
         // Fn for printing cards
         public function printCard() {
+            $type = get_class($this);
             return  "
                 <img src= \"{$this->image}\"><br>
                 {$this->name}<br>
                 Descrizione: {$this->description}<br>
                 Prezzo: €{$this->price}<br>
+                Categoria: $type ({$this->category->getCategory()}) <br>
                 Scadenza: {$this->expiry}<br>
                 Peso: {$this->weight} gr.<br> <hr>
             ";
