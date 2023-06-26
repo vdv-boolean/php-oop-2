@@ -43,3 +43,9 @@ $shelter = new Shelter(
     1000,
     1000
 );
+
+
+// Card Printing using FN
+echo $food->printCard();
+echo $toy->printCard();
+echo $shelter->printCard();
