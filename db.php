@@ -13,7 +13,7 @@ $arrProducts = [
         "descrizione del cibo",
         999,
         $categories[0],
-        "",
+        "https://picsum.photos/200/300",
         "data",
         1000
     ),
@@ -23,7 +23,7 @@ $arrProducts = [
         "descrizione del giocattolo",
         999,
         $categories[0],
-        "",
+        "https://picsum.photos/200/300",
         "materiale",
         "colore"
     ),
@@ -33,7 +33,7 @@ $arrProducts = [
         "descrizione della cuccia",
         999,
         $categories[0],
-        "",
+        "https://picsum.photos/200/300",
         1000,
         1000,
         1000
@@ -44,7 +44,7 @@ $arrProducts = [
         "descrizione del cibo",
         999,
         $categories[1],
-        "",
+        "https://picsum.photos/200/300",
         "data",
         1000
     ),
@@ -54,7 +54,7 @@ $arrProducts = [
         "descrizione del giocattolo",
         999,
         $categories[1],
-        "",
+        "https://picsum.photos/200/300",
         "materiale",
         "colore"
     ),
@@ -64,7 +64,7 @@ $arrProducts = [
         "descrizione della cuccia",
         999,
         $categories[1],
-        "",
+        "https://picsum.photos/200/300",
         1000,
         1000,
         1000
