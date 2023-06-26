@@ -13,9 +13,9 @@ class Shelter extends Product {
             int $price, // Price in cents
             Category $category, // OBJ composition
             string $image,
-            private int $height, // Height in mm
-            private int $width, // Width in mm
-            public int $length // Length in mm
+            protected int $height, // Height in mm
+            protected int $width, // Width in mm
+            protected int $length // Length in mm
         )
         {
             parent::__construct($id, $name, $description, $price, $category, $image);

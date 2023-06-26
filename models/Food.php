@@ -12,8 +12,8 @@ class Food extends Product {
         int $price, // Price in cents
         Category $category, // OBJ composition
         string $image,
-        private string $expiry,
-        private int $weight // Weight in gr.
+        protected string $expiry,
+        protected int $weight // Weight in gr.
     )
     {
         parent::__construct($id, $name, $description, $price, $category, $image);
