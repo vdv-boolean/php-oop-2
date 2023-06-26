@@ -8,9 +8,13 @@ class Product {
         private int $id,
         private string $name,
         private string $description,
-        private int $price,
-        private Category $category,
+        private int $price, // Price in cents
+        private Category $category, // OBJ composition
         private string $image
     )
     {}
+
+    public function printCard() {
+        return "Card of" . $this->name;
+    }
 };
