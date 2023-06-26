@@ -25,7 +25,7 @@ class Food extends Product {
                 <img src= \"{$this->image}\"><br>
                 {$this->name}<br>
                 Descrizione: {$this->description}<br>
-                Prezzo: €{$this->price}<br>
+                Prezzo: €{$this->convertPrice()}<br>
                 Categoria: $type ({$this->category->getCategory()}) <br>
                 Scadenza: {$this->expiry}<br>
                 Peso: {$this->weight} gr.<br> <hr>

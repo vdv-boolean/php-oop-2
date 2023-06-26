@@ -26,7 +26,7 @@ class Toy extends Product {
                 <img src= \"{$this->image}\"><br>
                 {$this->name}<br>
                 Descrizione: {$this->description}<br>
-                Prezzo: €{$this->price}<br>
+                Prezzo: €{$this->convertPrice()}<br>
                 Categoria: $type ({$this->category->getCategory()}) <br>
                 Materiale: {$this->material}<br>
                 Colore: {$this->color}<br> <hr>

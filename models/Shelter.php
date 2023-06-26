@@ -27,7 +27,7 @@ class Shelter extends Product {
                 <img src= \"{$this->image}\"><br>
                 {$this->name}<br>
                 Descrizione: {$this->description}<br>
-                Prezzo: €{$this->price}<br>
+                Prezzo: €{$this->convertPrice()}<br>
                 Categoria: $type ({$this->category->getCategory()}) <br>
                 Dimensioni: {$this->height} x {$this->width} x {$this->length} mm<br> <hr>
             ";
