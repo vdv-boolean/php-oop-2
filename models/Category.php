@@ -8,4 +8,7 @@ class Category {
         protected string $description
     )
     {}
+    public function getCategory() {
+        return $this->animal;
+    }
 }
