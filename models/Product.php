@@ -14,6 +14,7 @@ class Product {
     )
     {}
 
+    // Fn for printing cards
     public function printCard() {
         return "Card of" . $this->name;
     }
