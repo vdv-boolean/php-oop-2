@@ -19,4 +19,8 @@ class Toy extends Product {
     {
         parent::__construct($id, $name, $description, $price, $category, $image);
     }
+        // Fn for printing cards
+        public function printCard() {
+            return "Toy card of " . $this->name . "<br>";
+        }
 };
