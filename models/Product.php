@@ -18,4 +18,8 @@ class Product {
     public function printCard() {
         return "Card of " . $this->name . "<br>";
     }
+
+    public function convertPrice() {
+        return $this->price / 100;
+    }
 };
