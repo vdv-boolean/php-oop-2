@@ -1,8 +1,8 @@
 <?php
 //
 $categories = [
-	new Category(1, 'Cats', 'lorem ipsum'),
-	new Category(2, 'Dogs', 'lorem ipsum'),
+	new Category(1, 'Gatti', 'lorem ipsum'),
+	new Category(2, 'Cani', 'lorem ipsum'),
 ];
 
 // Array of all ahop products
