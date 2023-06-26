@@ -21,6 +21,13 @@ class Toy extends Product {
     }
         // Fn for printing cards
         public function printCard() {
-            return "Toy card of " . $this->name . "<br>";
+            return  "
+                <img src= \"{$this->image}\"><br>
+                {$this->name}<br>
+                Descrizione: {$this->description}<br>
+                Prezzo: €{$this->price}<br>
+                Materiale: {$this->material}<br>
+                Colore: {$this->color}<br> <hr>
+            ";
         }
 };

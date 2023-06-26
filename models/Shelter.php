@@ -22,6 +22,12 @@ class Shelter extends Product {
         }
             // Fn for printing cards
     public function printCard() {
-        return "Shelter card of " . $this->name . "<br>";
+        return  "
+                <img src= \"{$this->image}\"><br>
+                {$this->name}<br>
+                Descrizione: {$this->description}<br>
+                Prezzo: €{$this->price}<br>
+                Dimensioni: {$this->height} x {$this->width} x {$this->length} mm<br> <hr>
+            ";
     }
 };
